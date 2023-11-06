@@ -1,6 +1,6 @@
-import { generation } from "https://deno.land/x/shenron/mod.ts";
+import { generate } from "https://deno.land/x/shenron/mod.ts";
 
-await generation({
+await generate({
   path: {
     output: "./output",
     template: "./tpl/fruits",
