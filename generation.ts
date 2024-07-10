@@ -1,7 +1,7 @@
-import { generate } from "https://deno.land/x/shenron/mod.ts";
+import * as shenron from "https://deno.land/x/shenron@v2.0.0/mod.ts";
 
-await generate({
-  path: {
+await shenron.generate({
+  dir: {
     output: "./output",
     template: "./tpl/fruits",
   },
